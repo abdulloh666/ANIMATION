@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border-radius: 10px;
+  -webkit-animation-name: box;
+          animation-name: box;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes box {
+  0% {
+    transform: translateX(0px);
+    background-color: black;
+  }
+  5% {
+    background-color: rgb(18, 101, 216);
+  }
+  10% {
+    transform: translate(500px);
+    background-color: blue;
+  }
+  15% {
+    background-color: rgb(131, 186, 29);
+  }
+  20% {
+    transform: translate(500px, 500px);
+    background-color: gold;
+  }
+  25% {
+    background-color: darkolivegreen;
+  }
+  30% {
+    transform: translate(1000px, 500px);
+    background-color: pink;
+  }
+  35% {
+    background-color: seagreen;
+  }
+  40% {
+    transform: translate(1000px, 700px);
+    background-color: purple;
+  }
+  45% {
+    background-color: rgb(78, 171, 144);
+  }
+  50% {
+    transform: translate(700px, 700px);
+    background-color: dodgerblue;
+  }
+  55% {
+    background-color: orange;
+  }
+  60% {
+    transform: translate(700px, 600px);
+    background-color: lawngreen;
+  }
+  65% {
+    background-color: brown;
+  }
+  70% {
+    transform: translate(500px, 600px);
+    background-color: salmon;
+  }
+  75% {
+    background-color: silver;
+  }
+  80% {
+    transform: translate(200px, 400px);
+    background-color: magenta;
+  }
+  85% {
+    background-color: aqua;
+  }
+  90% {
+    transform: translate(0px, 400px);
+    background-color: rgb(112, 26, 102);
+  }
+  95% {
+    background-color: firebrick;
+  }
+  100% {
+    transform: translate(0px);
+  }
+}
+
+@keyframes box {
+  0% {
+    transform: translateX(0px);
+    background-color: black;
+  }
+  5% {
+    background-color: rgb(18, 101, 216);
+  }
+  10% {
+    transform: translate(500px);
+    background-color: blue;
+  }
+  15% {
+    background-color: rgb(131, 186, 29);
+  }
+  20% {
+    transform: translate(500px, 500px);
+    background-color: gold;
+  }
+  25% {
+    background-color: darkolivegreen;
+  }
+  30% {
+    transform: translate(1000px, 500px);
+    background-color: pink;
+  }
+  35% {
+    background-color: seagreen;
+  }
+  40% {
+    transform: translate(1000px, 700px);
+    background-color: purple;
+  }
+  45% {
+    background-color: rgb(78, 171, 144);
+  }
+  50% {
+    transform: translate(700px, 700px);
+    background-color: dodgerblue;
+  }
+  55% {
+    background-color: orange;
+  }
+  60% {
+    transform: translate(700px, 600px);
+    background-color: lawngreen;
+  }
+  65% {
+    background-color: brown;
+  }
+  70% {
+    transform: translate(500px, 600px);
+    background-color: salmon;
+  }
+  75% {
+    background-color: silver;
+  }
+  80% {
+    transform: translate(200px, 400px);
+    background-color: magenta;
+  }
+  85% {
+    background-color: aqua;
+  }
+  90% {
+    transform: translate(0px, 400px);
+    background-color: rgb(112, 26, 102);
+  }
+  95% {
+    background-color: firebrick;
+  }
+  100% {
+    transform: translate(0px);
+  }
+}/*# sourceMappingURL=main.css.map */

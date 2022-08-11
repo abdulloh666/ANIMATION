@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+$main-width:200px;
+
+.box{
+    width: $main-width;
+    height: $main-width;
+    background-color: red;
+    border-radius: 10px;
+    animation-name: box;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes box{
+    0%{
+        transform: translateX(0px);
+        background-color:black ;
+    }
+
+    5%{
+        background-color: rgb(18, 101, 216);
+    }
+
+    10%{
+        transform: translate(500px);
+        background-color: blue;
+    }
+
+    15%{
+        background-color:rgb(131, 186, 29) ;
+    }
+
+    20%{
+        transform: translate(500px , 500px);
+        background-color: gold;
+    }
+
+    25%{
+        background-color: darkolivegreen;
+    }
+
+    30%{
+        transform: translate(1000px , 500px);
+        background-color: pink;
+    }
+
+    35%{
+        background-color: seagreen;
+    }
+
+    40%{
+        transform: translate(1000px , 700px);
+        background-color: purple ;
+    }
+
+    45%{
+        background-color: rgb(78, 171, 144);
+    }
+
+    50%{
+        transform: translate(700px , 700px);
+        background-color: dodgerblue;
+    }
+    55%{
+        background-color:orange ;
+    }
+
+    60%{
+        transform: translate(700px , 600px);
+        background-color: lawngreen;
+    }
+    65%{
+        background-color: brown;
+    }
+
+    70%{
+        transform: translate(500px , 600px);
+        background-color: salmon;
+    }
+    75%{
+        background-color: silver;
+    }
+
+    80%{
+        transform: translate(200px , 400px);
+        background-color: magenta;
+    }
+
+    85%{
+        background-color:aqua ;
+    }
+
+    90%{
+        transform: translate(0px , 400px);
+        background-color: rgb(112, 26, 102);
+    }
+
+    95%{
+        background-color: firebrick;
+    }
+
+    100%{
+        transform: translate(0px);
+    }
+}
